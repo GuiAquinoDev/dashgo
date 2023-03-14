@@ -36,7 +36,7 @@ export default function UserList() {
         createdAt: new Date(user.createdAt).toLocaleDateString('pt-BR', {
           day: '2-digit',
           month: 'long',
-          year: 'numeric'
+          year: 'numericj'
         })
       }
     })
